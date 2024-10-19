@@ -1,5 +1,5 @@
 services:
-  - type: web)
+  - type: static_site
     name: website_demo
     buildCommand: flutter build web
     staticPublishPath: build/web
