@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:website_demo/screens/login.dart';
 
 import '../helper/app_constants.dart';
 import '../widgets/skip_cards.dart';
+import 'login.dart';
 
 class Dashboard extends StatelessWidget {
   const Dashboard({super.key});
@@ -550,6 +550,7 @@ class Dashboard extends StatelessWidget {
                     children: [
                       const Text('Need Help?'),
                       const Icon(Icons.person_pin),
+                      const Icon(Icons.shopping_cart),
                       TextButton(
                         onPressed: () {
                           Get.off(() => const Login());
