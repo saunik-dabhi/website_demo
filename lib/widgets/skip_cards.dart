@@ -20,8 +20,8 @@ class SkipCards extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: height * 0.345,
-      width: width * 0.2,
+      height: height * 0.38,
+      width: width * 0.8,
       decoration: BoxDecoration(
         color: color,
         borderRadius: BorderRadius.circular(10),

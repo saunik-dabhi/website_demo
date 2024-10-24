@@ -12,11 +12,11 @@ class AppConstants {
   static const Color skipWhite = Color.fromRGBO(220, 218, 200, 1);
   static const Color btnBlue = Color.fromRGBO(57, 92, 99, 1);
   static const Color bgColor = Color(0xFFFEF9F6);
+  static const Color beige = Color(0xFFF5F5DC);
 
   // String Constants
-  static const String imgBase = 'assets/images/';
-  static const String imgPasta = '$imgBase/pasta_dish.jpeg';
-  static const String imgLogo = '$imgBase/skip_logo.png';
+  static const String imgBase = 'assets/images';
+  static const String imgLogo = '$imgBase/app_logo.png';
 
   // List Constants
   static const List<String> cuisine1 = [
